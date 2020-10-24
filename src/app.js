@@ -17,6 +17,13 @@ app.get("/",(req,res)=>{
     res.render("index")
 })
 
+app.get("/blogs",(req,res)=>{
+    res.render("blogs")
+})
+
+app.get("/certificates",(req,res)=>{
+    res.render("certificates")
+})
 
 app.listen(3000,()=>{
     console.log("Server started at localhost:3000")
