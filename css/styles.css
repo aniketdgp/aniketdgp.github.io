@@ -1,0 +1,68 @@
+body, html {
+      /* The image used */
+      /*background-image: url("../assets/img/wp.jpg");*/
+      background-color: azure;
+  
+      /* Half height */
+      height: 100vh;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+
+  .nav-img{
+      height: 30px;
+      width: 30px;
+      margin-right: 20px;
+  }
+
+
+/*Home Screen*/
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .hi{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .greet{
+        color: #585958;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 601px) {
+
+    .hi{
+        margin-left: 100px;
+        margin-right: 60px;
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .greet{
+        color: #585958;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
