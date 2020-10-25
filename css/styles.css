@@ -28,8 +28,10 @@
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 70px;
+    background-color: white;
   }
 
+ 
 
 /*Home Screen*/
 
@@ -107,6 +109,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
 }
 
 
