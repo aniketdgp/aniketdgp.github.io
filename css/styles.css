@@ -1,5 +1,11 @@
 
- .home{
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.home{
     background-color:transparent;
   
     /* Half height */
@@ -75,6 +81,7 @@
         margin-right: 100px;
         margin-top: 100px;
         font-size: 30px;
+        padding-top: 100px;
     }
 
     .greet{
