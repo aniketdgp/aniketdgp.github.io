@@ -11,3 +11,9 @@ function typeWriter() {
 }
 
 typeWriter()
+
+
+/*Collapse Navbar*/
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
