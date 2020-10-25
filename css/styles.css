@@ -1,18 +1,19 @@
-body, html {
-      /* The image used */
-      /*background-image: url("../assets/img/wp.jpg");*/
-      background-color:white;
+
+ .home{
+    background-color:transparent;
   
-      /* Half height */
-      height: 100vh;
-      position: relative;
-    
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
+    /* Half height */
+    height: 100vh;
+    position: relative;
   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }  
+
+
+
 
   .nav-img{
       height: 30px;
@@ -22,7 +23,7 @@ body, html {
 
 
   .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -93,8 +94,20 @@ body, html {
   }
 
 
+/*Projects Section Start Here*/
 
-
+.projects{
+    background-color:white;
+  
+    /* Half height */
+    height: 100vh;
+    position: relative;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
