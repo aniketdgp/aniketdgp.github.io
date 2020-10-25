@@ -1,7 +1,7 @@
 body, html {
       /* The image used */
       /*background-image: url("../assets/img/wp.jpg");*/
-      background-color: azure;
+      background-color:white;
   
       /* Half height */
       height: 100vh;
@@ -30,12 +30,16 @@ body, html {
     .hi{
         margin-left: 40px;
         margin-right: 40px;
-        margin-top: 100px;
-        font-size: 40px;
+        margin-top: 50px;
+        font-size: 30px;
     }
 
     .greet{
-        color: #585958;
+        font-family: sans-serif;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-size: 40px;
     }
 
   }
@@ -45,13 +49,17 @@ body, html {
 
     .hi{
         margin-left: 100px;
-        margin-right: 60px;
+        margin-right: 100px;
         margin-top: 100px;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .greet{
-        color: #585958;
+        font-family: sans-serif;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        font-size: 55px;
     }
 
   }
