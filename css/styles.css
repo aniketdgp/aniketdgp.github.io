@@ -98,21 +98,51 @@
 
 /*Projects Section Start Here*/
 
-.projects{
-    background-color:white;
-  
-    /* Half height */
-    height: 100vh;
-    position: relative;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
+
+@media only screen and (max-width: 600px) {
+ 
+    .projects{
+        background-color:white;
+      
+        /* Half height */
+        height: 100vh;
+        position: relative;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+
+
 }
+
+@media only screen and (min-width: 601px) {
+
+    .projects{
+        background-color:white;
+      
+        /* Half height */
+        height: 100vh;
+        position: relative;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+    }
+
+
+}
+
+
 
 
 
