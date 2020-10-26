@@ -114,6 +114,7 @@ html {
         /* Half height */
         height: 100vh;
         position: relative;
+        overflow: hidden;
       
         /* Center and scale the image nicely */
         background-position: center;
