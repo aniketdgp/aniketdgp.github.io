@@ -112,9 +112,8 @@ html {
         background-color:white;
       
         /* Half height */
-        height: 100vh;
+        height: 160vh;
         position: relative;
-        overflow: hidden;
       
         /* Center and scale the image nicely */
         background-position: center;
@@ -182,6 +181,9 @@ html {
     }
     
     
+    .card-group{
+        margin-bottom: 60px;
+    }
 
 
 
